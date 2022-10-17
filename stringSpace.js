@@ -8,7 +8,7 @@ console.log(stringSpace(str3));
 
 function stringSpace(str){
     let newString = '';
-    let myArray = []
+    //let myArray = [];
     // for(let i = 0; i < str.length; i++){
     //     myArray.push(str[i]);
     // }
@@ -20,7 +20,7 @@ function stringSpace(str){
             newString = newString + str[i] + " ";
         }
         else{
-            newString = newString + str[i]
+            newString = newString + str[i];
         }
     }
     //console.log(newString.length);
