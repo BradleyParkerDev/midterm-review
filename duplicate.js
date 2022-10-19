@@ -7,7 +7,6 @@ console.log(duplicate(myArray2));
 console.log(duplicate(myArray3));
 
 function duplicate(arr){
-    let newArray = arr;
     let counter = 0;
     for(let i = 1; i < arr.length; i++){
         if(arr[0] === arr[i]){
