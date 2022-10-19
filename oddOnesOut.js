@@ -9,12 +9,16 @@ console.log(oddOnesOut(myArray2));
 console.log(oddOnesOut(myArray3));
 
 function oddOnesOut(arr){
-    let newArray = [];
-    for(let i = 0; i < arr.length; i++){
-        if(arr[i] != 1){
-            newArray.push(arr[i]);
-        }
-    }
+    // let newArray = [];
+    // for(let i = 0; i < arr.length; i++){
+    //     if(arr[i] !== 1){
+    //         newArray.push(arr[i]);
+    //     }
+    // }
+   
+    let newArray = arr.filter(function(num){
+        return num !== 1;
+    })
     return newArray;
 }
 
