@@ -16,13 +16,14 @@ function foundCat(arr){
     let cat = '';
     for(let i = 0; i < arr.length; i++){ 
         if(arr[i] === "cat"){
-            cat = "cat";
+            // cat = "cat";
+            return true;
         }  
-    }
-    if(cat === "cat"){
-        return true;
-    }
-    else{
-        return false;
+    // }
+    // if(cat === "cat"){
+    //     return true;
+    // }
+    // else{
+    //     return false;
     }
 }
