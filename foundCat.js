@@ -7,12 +7,7 @@ console.log(foundCat(catArray));
 console.log(foundCat(noCatArray));
 
 function foundCat(arr){
-    // if(arr.includes("cat")){
-    //     return true;
-    // }
-    // else{
-    //     return false;
-    // }
+    // return (arr.includes("cat"))
     let cat = '';
     for(let i = 0; i < arr.length; i++){ 
         if(arr[i] === "cat"){
@@ -21,11 +16,4 @@ function foundCat(arr){
         }      
     }
     return false;
-    // }
-    // if(cat === "cat"){
-    //     return true;
-    // }
-    // else{
-    //     return false;
-    
 }
