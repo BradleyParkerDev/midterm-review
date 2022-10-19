@@ -18,12 +18,14 @@ function foundCat(arr){
         if(arr[i] === "cat"){
             // cat = "cat";
             return true;
-        }  
+        }      
+    }
+    return false;
     // }
     // if(cat === "cat"){
     //     return true;
     // }
     // else{
     //     return false;
-    }
+    
 }
